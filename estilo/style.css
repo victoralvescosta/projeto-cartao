@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    
+    position: relative;
+    height: 100vh;
+}
+
+section#perfume {
+    
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    background: black url("../images/image-product-desktop.jpg") center center no-repeat fixed   ;
+    height: 500px;
+    width: 380px;
+}
